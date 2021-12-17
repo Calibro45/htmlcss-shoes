@@ -73,7 +73,6 @@ img {
 
 .shoe-wrapper {
     max-width: 730px;
-    min-height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,7 +81,7 @@ img {
 
 .row-product .shoe-wrapper img {
     object-fit: cover;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 .row-product .shoe-wrapper h1 {
