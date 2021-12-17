@@ -61,10 +61,13 @@ img {
 /* shoe wrapper */
 
 .row-product {
-    background-color: red;
     width: 100%;
     height: 100vh;
     position: relative;
+}
+
+.row-product.red {
+    background-color: #ff0000;
 }
 
 .shoe-wrapper {
@@ -73,10 +76,27 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%)
+    transform: translate(-50% , -50%);
 }
 
 .row-product .shoe-wrapper img {
     object-fit: cover;
+    padding: 40px 20px;
 }
 
+.row-product .shoe-wrapper h1 {
+    font-size: calc(3vw + 12px);
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 10px;
+    padding: 0 20px;
+    color: #ffff00;
+}
+
+/* secondo shoe wrapper */
+
+.row-product.green {
+    background-color: #008000;
+}
+
+/* terzo shoe wrapper */
