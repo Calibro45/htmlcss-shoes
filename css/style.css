@@ -11,3 +11,42 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+    padding: 5px;
+}
+
+/* navigation bar */
+
+.row.nav {
+    position: relative;
+}
+
+.row-nav .nav-list {
+    padding: 40px 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.row-nav .nav-list li {
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-weight: 700;
+    font-size: calc(1vw + 12px)
+}
+
+.row-nav .nav-list li:last-child {
+    margin: 0;
+}
+
+.row-product {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
